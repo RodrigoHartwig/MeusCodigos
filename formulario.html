@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>
+            Titulo de Teste
+        </title>
+        <meta charset = "utf-8">
+        <style>
+        .container{         
+            margin-left: 50px;
+            margin-top: 50px;
+            margin-right: 50px;
+            font-family: verdana;
+            font-size: 12px;
+            font-weight: bold;
+            border:1px solid grey; 
+            
+        }
+            
+        .titulo{       
+            background: #e7e7e7;
+            font-family: verdana;
+            font-size: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 2px;
+            
+        }
+        .assunto{
+            border: 1px;
+            background: #e5e5e5;
+            margin-top: 5px;
+        }
+        .margens{
+            margin-left: 50px;
+            padding-top: 5px;
+        }
+        .campos{
+            font-size:8px;
+            text-align: right;
+            background: #e7e7e7;
+            margin-top: 5px;
+        }   
+        
+        .space-line{
+            padding-top: 5px;
+            padding-bottom: 2px;
+        }
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="titulo" >
+               Fale Conosco 
+            </div>
+        <form name="frmcadastro">
+            <div class="assunto"><label>Assunto:</label>
+                <select name="Assunto">
+                    <option value="Assunto1">Selecionar</option>
+                    <option value="Assunto1">Comentário</option>
+                    <option value="Assunto1">Imprensa</option>
+                    <option value="Assunto1">Compras</option>
+                    <option value="Assunto1">Expansão</option>
+                    <option value="Assunto1">Dúvidas</option>
+                    <option value="Assunto1">Mídia/Publicidade</option>
+                    <option value="Assunto1">Parcerias</option>
+                    <option value="Assunto1">Gift Card</option>       
+            </select>
+            <label>Tipo:</label>
+                <select name="Tipo">
+                    <option value="Tipo1">Selecionar</option>
+                    <option value="Tipo1">Elogios</option>
+                    <option value="Tipo1">Reclamação</option>
+                    <option value="Tipo1">Sugestões</option>
+            
+                </select>
+             <label>Loja:</label>
+                <select name="Loja">
+                    <option value="Loja1">Selecionar</option>
+                    <option value="Loja1">Rio de Janeito</option>
+                    <option value="Loja1">Moema</option>
+                    <option value="Loja1">Santo Amaro</option>
+                </select>
+            </div>
+            <div class="campos"><label>*Campos Obrigatórios</label></div>
+            <div class="margens">
+                <div class="space-line"><label>*Nome:</label><input type="text" name="txtnome" maxlength="20" title="Nome" placeholder="Digite seu nome..." size="46"><br></div>
+                <div class="space-line"><label>*Email:</label><input type="email" name="txtemail" title="E-mail" placeholder="Digite seu email" size="46"><br></div>
+                <div class="space-line"><label>*Telefone:</label><input type="tel" name="usrtel" title="Telefone" placeholder="Digite seu telefone" size="43"><br></div>
+                <div class="space-line"><label>*Cidade:</label><input type="text" name="txtcidade" title="Cidade" placeholder="Digite sua Cidade" size="45"></div>
+                <div class="space-line"><label>*Estado:</label>
+                <select name="Estado">
+                    <option value="Estado1">Selecionar</option>
+                    <option value="Estado2">Acre</option>
+                    <option value="Estado3">Alagoas</option>
+                    <option value="Estado4">Amapa</option>
+                    <option value="Estado5">Amazonas</option>
+                    <option value="Estado6">Bahia</option>
+                    <option value="Estado7">Ceará</option>
+                    <option value="Estado8">Distrito Federal</option>
+                    <option value="Estado9">Espirito Santo</option>
+                    <option value="Estado10">Goias</option>
+                    <option value="Estado11">Maranhão</option>
+                </select></div><br>   
+                <div class="space-line"><label >*Mensagem:</label><br><textarea rows="5" cols="55" maxlength="500"></textarea></div><br>
+                <div class="space-line"><label>Opinião: Como considera nosso atendimento?</label><br>
+                    <select name="Opinião">
+                    <option value="Opiniao1">----[Selecione]----</option>
+                    <option value="Opiniao1">Excelente</option>
+                    <option value="Opiniao1">Ótimo</option>
+                    <option value="Opiniao1">Bom</option>
+                    <option value="Opiniao1">Regular</option>
+                    <option value="Opiniao1">Ruim</option>
+                </select></div><br>
+                <div class="space-line"><label>Gostaria de receber novidades da Fogo de Chão!</label>
+                    <input type="checkbox" name="chksim" title="Sim, gostaria de receber novidades da Fogo de Chão"></div><br>
+                    <input type="submit" value="Enviar">
+                </div> 
+            </form>
+            <footer>Copyright Rodrigo - 2014</footer>
+        </div>
+    </body>
+</html>
